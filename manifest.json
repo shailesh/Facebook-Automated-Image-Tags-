@@ -1,0 +1,24 @@
+{
+  "name": "Show Facebook Automated Computer Vision Image Tags",
+  "version": "0.0.1",
+  "author": "Shailesh Singh",
+  "manifest_version": 2,
+  "description": "Shows what Facebook thinks every pictures contain",
+  "homepage_url": "https://github.com/shaileshgoogler/Facebook-Automated-Image-Tags-/",
+  "permissions": [
+    "http://www.facebook.com/*", "https://www.facebook.com/*", "https://web.facebook.com/*"
+  ],
+  "web_accessible_resources": ["locales/*"],
+  "icons": {
+    "128": "logo128.png",
+    "16": "logo16.png",
+    "48": "logo48.png"
+  },
+  "content_scripts": [{
+    "matches": ["http://www.facebook.com/*", "https://www.facebook.com/*", "https://web.facebook.com/*"],
+    "css": ["facebook.css"],
+    "js": ["facebook.js"],
+    "run_at": "document_idle",
+    "all_frames": false
+  }]
+}
