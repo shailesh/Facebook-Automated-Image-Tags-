@@ -1,1 +1,1 @@
-# Facebook-Automated-Image-Tags-
+# Facebook-Automated-Image-Tags
