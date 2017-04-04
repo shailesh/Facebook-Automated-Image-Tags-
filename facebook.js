@@ -77,18 +77,6 @@ const makeLocaleRequest = function(localePath) {
 /**
  * Check for locale
  */
-if (locale === 'Locale_es_LA') {
-  makeLocaleRequest('/locales/es/messages.json');
-} else if (locale === 'Locale_de_DE') {
-  makeLocaleRequest('/locales/de/messages.json');
-} else if (locale === 'Locale_en_GB' || locale === 'Locale_en_US') {
+if (locale === 'Locale_en_GB' || locale === 'Locale_en_US') {
   makeLocaleRequest('/locales/en_US/messages.json');
-} else if (locale === 'Locale_fr_FR') {
-  makeLocaleRequest('/locales/fr/messages.json');
-} else if (locale === 'Locale_it_IT') {
-  makeLocaleRequest('/locales/it_IT/messages.json');
-} else if (locale === 'Locale_vi_VN') {
-  makeLocaleRequest('/locales/vi_VN/messages.json');
-} else if (locale === 'Locale_th_TH') {
-  makeLocaleRequest('/locales/th_TH/messages.json');
 }
