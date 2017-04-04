@@ -1,7 +1,7 @@
 # Facebook-Automated-Image-Tags
 A Chrome Extension that displays the automated image tags that Facebook has generated for every images.
 
-Since April 2016, Facebook has been [automatically adding `alt` tags](https://code.facebook.com/posts/457605107772545/under-the-hood-building-accessibility-tools-for-the-visually-impaired-on-facebook/) to images
+Since April 2016, Facebook has been [automatically adding tags](https://code.facebook.com/posts/457605107772545/under-the-hood-building-accessibility-tools-for-the-visually-impaired-on-facebook/) to images
 you upload that are populated with keywords representing the content of every images.
 
 They are labeling your images using a Deep ConvNet built by Facebook's
